@@ -3,6 +3,20 @@ Role Name
 
 A brief description of the role goes here.
 
+Install
+------------
+Create requirements.yml and add:
+```
+# trust-geotrust role
+- src: https://github.com/Atigeo/ansible-java.git
+  version: master
+  name: java
+```
+
+```
+ansible-galaxy install -r requirements.yml
+```
+
 Requirements
 ------------
 
