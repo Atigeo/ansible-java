@@ -1,2 +1,4 @@
 ---
 # vars file for ansible-java
+
+java_location: /usr/lib/jvm
