@@ -1,6 +1,8 @@
 ---
 # tasks file for ansible-java
 
+- package: name=wget state=latest
+
 - name: Download Java
   command: 'wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz -P /tmp/'
 
